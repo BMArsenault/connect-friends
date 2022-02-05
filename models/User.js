@@ -12,7 +12,8 @@ const UserSchema = new Schema(
     email: {
       type: String,
       required: true,
-      trim: true
+      trim: true,
+      match: [/.+@.+\..+/]
     },
     thoughts: [
     {
@@ -23,8 +24,7 @@ const UserSchema = new Schema(
     friends: [{
       type: Schema.Types.ObjectId,
       ref: 'User'
-    }
-    ]
+    }]
   },
   {
     toJSON: {
