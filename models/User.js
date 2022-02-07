@@ -12,7 +12,9 @@ const UserSchema = new Schema(
     email: {
       type: String,
       required: true,
-      trim: true
+      trim: true,
+      unique: true,
+      match: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, 'Please add a valid email address']
     },
     thoughts: [
     {
@@ -38,10 +40,7 @@ const UserSchema = new Schema(
 
 // get total count of comments and replies on retrieval
 UserSchema.virtual('friendCount').get(function() {
-  return this.friends.reduce(
-    (total, friends) => total + friends.replies.length + 1,
-    0
-  );
+  return this.friends.length;
 });
 
 const User = model('User', UserSchema);
