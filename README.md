@@ -25,6 +25,6 @@ This video shows you how to add and delete a friend:
 
 https://watch.screencastify.com/v/ktcXonQlHBwvQ4oNWwr0
 
-This video is adding a deleting a reaction:
+This video is adding and deleting a reaction:
 
 https://watch.screencastify.com/v/XmtLnf8uvTvVt7lRaeuP
