@@ -15,8 +15,6 @@ Connect Friends allows friends to gather, see each others thoughts, comment on a
 
 This first video shows the GET, POST, PUT and DELETE for Users:
 
-<iframe src="https://drive.google.com/file/d/1RKg2IsZaY3BB1909d9vNCXho5id4o3hk/preview" width="640" height="480" allow="autoplay"></iframe>
-
 https://watch.screencastify.com/v/KrvSi97x1dvwH2TMfipN
 
 This next video shows the GET, POST, PUT and DELETE for Thoughts:
